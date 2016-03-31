@@ -1,0 +1,8 @@
+{
+  "datasource": {
+    "name": "datasource",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  }
+}

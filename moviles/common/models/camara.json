@@ -1,0 +1,58 @@
+{
+  "name": "camara",
+  "plural": "camaras",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigoBarras": {
+      "type": "string",
+      "required": true
+    },
+    "videoQuality": {
+      "type": "string"
+    },
+    "minimumIllumination": {
+      "type": "string"
+    },
+    "dayNightMode": {
+      "type": "string"
+    },
+    "backlightCompensation": {
+      "type": "string"
+    },
+    "viewingAngle": {
+      "type": "string"
+    },
+    "nightVisionDistance": {
+      "type": "string"
+    },
+    "iRCutFilter": {
+      "type": "string"
+    },
+    "indoorOutdoor": {
+      "type": "string"
+    },
+    "operatingPower": {
+      "type": "string"
+    },
+    "operationTemperature": {
+      "type": "string"
+    },
+    "bodyConstruction": {
+      "type": "string"
+    },
+    "cameraStandDimensions": {
+      "type": "string"
+    },
+    "cameraStandWeight": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
