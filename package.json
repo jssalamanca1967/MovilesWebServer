@@ -25,6 +25,9 @@
     "type": "",
     "url": ""
   },
+  "engines": {
+    "node": "5.4.1"
+  },
   "license": "UNLICENSED",
   "description": "moviles"
 }
