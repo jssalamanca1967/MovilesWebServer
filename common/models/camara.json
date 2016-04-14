@@ -9,7 +9,8 @@
   "properties": {
     "codigoBarras": {
       "type": "string",
-      "required": true
+      "required": true,
+      "id": true
     },
     "videoQuality": {
       "type": "string"
